@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="typeface_url">
+        <item>fonts/CN-msyh.ttf</item>
+        <item>fonts/CN-STXINGKA.TTF</item>
+        <item>fonts/CN-STXINWEI.TTF</item>
+        <item>fonts/CN-SIMLI.TTF</item>
+    </string-array>
+
+    <string-array name="typeface_name">
+        <item>微软雅黑</item>
+        <item>华文行楷</item>
+        <item>华文新魏</item>
+        <item>隶书</item>
+    </string-array>
+
+</resources>

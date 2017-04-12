@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stone.imitationyixi.mvp.seminar.view.FlexiScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_gray"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="590dp">
+
+            <TextView
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="480dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="as,dfj;alksdjf;alksdjf;wioejfalskdfj"/>
+            <TextView
+                android:id="@+id/tv_des"
+                android:layout_marginTop="530dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="askldfjaoiseufpoaieufaskdfj;alsi fj;wlkefjaisjfl;wkejfasjdfjpweo"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/icn_launcher"/>
+        </FrameLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/app_red"/>
+        <TextView
+            android:id="@+id/tv_content"
+            android:background="@color/app_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="四十岁还爱成长的烦恼"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="赵毅"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/icn_launcher"/>
+                <TextView
+                    android:text="播放演讲"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</stone.imitationyixi.mvp.seminar.view.FlexiScrollView>

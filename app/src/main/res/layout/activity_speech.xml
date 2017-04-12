@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:orientation="vertical"
+            android:paddingBottom="64dp">
+
+            <TextView
+                android:id="@id/lecture_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:textColor="#ff444444"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@id/lecturer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="8dp"
+                android:textColor="#ff999999"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/lecture_full_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ff444444"
+                android:textSize="15sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#ffd32f2f"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/back_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/search_back"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="全文"
+            android:textColor="#ffffffff"
+            android:textSize="22sp"/>
+    </LinearLayout>
+    <include layout="@layout/widget_toolbar"/>
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+
+    <ListView
+        android:id="@+id/comments_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="56dp"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"/>
+    <include layout="@layout/widget_toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="48dp"
+        android:background="#ff666666"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <EditText
+                android:id="@id/add_comment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff666666"
+                android:hint="发表评论"
+                android:lineSpacingExtra="4.0dip"
+                android:minHeight="36dp"
+                android:paddingLeft="4dp"
+                android:textColor="#ffe2e2e2"
+                android:textColorHint="#ffffffff"
+                android:textSize="16sp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="2dp"
+                android:background="#ffe2e2e2"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@id/send_comment_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="4dp"
+            android:src="@mipmap/send"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/main_loading_progressbar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

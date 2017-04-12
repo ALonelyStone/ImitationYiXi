@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+    <TextView
+        android:id="@+id/dialog_clean_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="确定要清除缓存嘛？"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/dialog_yes_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/dialog_clean_tv"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/selector_onclick"
+        android:clickable="true"
+        android:padding="5dp"
+        android:text="确定"
+        android:textColor="@color/app_red"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/dialog_no_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_clean_tv"
+        android:layout_toLeftOf="@id/dialog_yes_tv"
+        android:layout_toStartOf="@id/dialog_yes_tv"
+        android:background="@drawable/selector_onclick"
+        android:clickable="true"
+        android:padding="5dp"
+        android:text="取消"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

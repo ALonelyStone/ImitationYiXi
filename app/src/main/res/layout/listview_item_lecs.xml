@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+    <!--w,128;h,72-->
+    <ImageView
+        android:id="@+id/lecs_cover_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="15dp"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/lecs_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/lecs_cover_iv"
+        android:layout_toRightOf="@id/lecs_cover_iv"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/lecs_nickname_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/lecs_title_tv"
+        android:layout_alignStart="@id/lecs_title_tv"
+        android:layout_below="@id/lecs_title_tv"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/lecs_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="12sp"/>
+
+</RelativeLayout>

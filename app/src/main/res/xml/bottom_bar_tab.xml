@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@mipmap/icn_lecture"
+        id="@+id/tab_lecture"
+        title="讲座"/>
+    <tab
+        icon="@mipmap/icn_record"
+        id="@+id/tab_record"
+        title="记录"/>
+    <tab
+        icon="@mipmap/icn_lecturer"
+        id="@+id/tab_lecturer"
+        title="讲者"/>
+    <tab
+        icon="@mipmap/icn_event"
+        id="@+id/tab_event"
+        title="活动"/>
+    <tab
+        icon="@mipmap/icn_branch"
+        id="@+id/tab_branch"
+        title="枝桠"/>
+</tabs>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/widget_toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="通用"
+        android:textColor="@android:color/black"/>
+
+    <TextView style="@style/ThickLine"/>
+
+    <LinearLayout
+        android:id="@+id/setting_clean_cache_ll"
+        style="@style/SettingOnClick"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="清除缓存"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/setting_cache_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"/>
+
+        <stone.imitationyixi.widget.titanic.TitanicTextView
+            android:id="@+id/setting_titanic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loading"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="25sp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <TextView style="@style/ThinLine"/>
+
+    <LinearLayout
+        android:id="@+id/setting_typeface_ll"
+        style="@style/SettingOnClick"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="字体"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/setting_typeface_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"/>
+
+    </LinearLayout>
+
+    <TextView style="@style/ThinLine"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="一席"
+        android:textColor="@android:color/black"/>
+
+    <TextView style="@style/ThickLine"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="版本"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/setting_version_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"/>
+
+    </LinearLayout>
+
+    <TextView style="@style/ThinLine"/>
+
+    <TextView
+        android:id="@+id/setting_about_tv"
+        style="@style/SettingOnClick"
+        android:text="关于"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"/>
+
+    <TextView style="@style/ThinLine"/>
+
+</LinearLayout>

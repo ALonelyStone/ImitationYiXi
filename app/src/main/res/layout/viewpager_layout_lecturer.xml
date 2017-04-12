@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white">
+
+    <GridView
+        android:id="@+id/lecturer_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"/>
+
+    <stone.imitationyixi.widget.titanic.TitanicTextView
+        android:id="@+id/lecturer_titanic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/loading"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="50sp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

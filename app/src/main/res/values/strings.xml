@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">仿一席</string>
+    <string name="loading">加载中…</string>
+    <string name="context_menu">context_menu</string>
+    <string name="searching">搜索中…</string>
+
+    <string name="input_mail">输入邮箱</string>
+    <string name="input_password">输入密码</string>
+    <string name="submit">提交</string>
+    <string name="later">请稍候...</string>
+    <string name="the_third_login">使用第三方帐号登录</string>
+
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+</resources>

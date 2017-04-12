@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/splash_rl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/app_red"
+                android:orientation="vertical">
+
+    <include
+        layout="@layout/widget_toolbar"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/splash_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/icn_logo"/>
+
+    <VideoView
+        android:id="@+id/splash_vv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/splash_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="跳过"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

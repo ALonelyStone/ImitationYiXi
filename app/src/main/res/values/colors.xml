@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text_color">#222222</color>
+    <color name="app_red">#CC2129</color>
+    <color name="app_gray">#DDDDDD</color>
+
+    <color name="menu_fragment_background">#B3000000</color>
+    <color name="menu_item_background">#f2f2f2</color>
+    <color name="divider_color">#b5b5b5</color>
+
+    <color name="menu_selected_color">#fff8f8f8</color>
+    <color name="menu_pressed_color">#ffe2e2e2</color>
+    <color name="menu_normal_color">#ffffffff</color>
+
+    <color name="login_text_color">#ffffff</color>
+    <color name="login_btn">#ace40808</color>
+
+    <color name="user_item">#545454</color>
+
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.romainpiel.titanic.TitanicTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_titanic"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/loading"
+    android:textColor="#212121"
+    android:textSize="70sp"/>

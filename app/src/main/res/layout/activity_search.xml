@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <include layout="@layout/widget_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <stone.imitationyixi.widget.NoScrollListView
+                android:id="@+id/search_lecture_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"/>
+
+            <stone.imitationyixi.widget.NoScrollListView
+                android:id="@+id/search_lecturer_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<include
+        android:id="@+id/search_header_view"
+        layout="@layout/widget_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize"/>-->
+
+    <TextView
+        style="@style/ThickLine"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="@color/app_red"/>
+
+    <stone.imitationyixi.widget.titanic.TitanicTextView
+        android:id="@+id/search_titanic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/searching"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="50sp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/search_not_found_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/icn_not_found"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>
